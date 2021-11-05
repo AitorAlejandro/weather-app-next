@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import { Wrapper } from "../components";
+import { ContentBox, MainCard, Wrapper } from "../components";
 
 export const App = () => {
   return (
@@ -10,7 +10,8 @@ export const App = () => {
       </Head>
 
       <Wrapper>
-        <h1>Weather App</h1>
+        <MainCard>MainCard</MainCard>
+        <ContentBox>Content Box</ContentBox>
       </Wrapper>
     </main>
   );
