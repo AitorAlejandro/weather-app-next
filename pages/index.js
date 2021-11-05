@@ -2,16 +2,19 @@ import Head from "next/head";
 
 import {
   ContentBox,
+  DateAndTime,
   Header,
   MainCard,
+  MetricCard,
   MetricBox,
+  Search,
   UnitSwitch,
   Wrapper,
 } from "../components";
 
 export const App = () => {
   return (
-    <main>
+    <div>
       <Head>
         <title>Weather app Next</title>
       </Head>
@@ -19,12 +22,22 @@ export const App = () => {
       <Wrapper>
         <MainCard>MainCard</MainCard>
         <ContentBox>
-          <Header>Header</Header>
-          <MetricBox>MetricBox</MetricBox>
+          <Header>
+            <DateAndTime>DateAndTime</DateAndTime>
+            <Search>Search</Search>
+          </Header>
+          <MetricBox>
+            <MetricCard>Metric Card</MetricCard>
+            <MetricCard>Metric Card</MetricCard>
+            <MetricCard>Metric Card</MetricCard>
+            <MetricCard>Metric Card</MetricCard>
+            <MetricCard>Metric Card</MetricCard>
+            <MetricCard>Metric Card</MetricCard>
+          </MetricBox>
           <UnitSwitch>UnitSwitch</UnitSwitch>
         </ContentBox>
       </Wrapper>
-    </main>
+    </div>
   );
 };
 
