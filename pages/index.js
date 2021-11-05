@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import { ContentBox, MainCard, Wrapper } from "../components";
+import { ContentBox, Header, MainCard, Wrapper } from "../components";
 
 export const App = () => {
   return (
@@ -11,7 +11,9 @@ export const App = () => {
 
       <Wrapper>
         <MainCard>MainCard</MainCard>
-        <ContentBox>Content Box</ContentBox>
+        <ContentBox>
+          <Header>Header</Header>
+        </ContentBox>
       </Wrapper>
     </main>
   );
