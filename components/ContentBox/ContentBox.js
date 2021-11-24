@@ -1,3 +1,5 @@
+import styles from "./ContentBox.module.css";
+
 export const ContentBox = ({ children }) => {
-  return <div className="ContentBox">{children}</div>;
+  return <div className={styles.ContentBox}>{children}</div>;
 };
