@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import "../styles/Index.module.css";
+
 import {
   ContentBox,
   DateAndTime,

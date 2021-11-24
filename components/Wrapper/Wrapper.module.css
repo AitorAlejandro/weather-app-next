@@ -1,0 +1,23 @@
+.Wrapper {
+    display: grid;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 8px 32px 0 rgba(83, 89, 179, 0.37);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+}
+
+@media only screen and (min-width: 600px) {
+    .Wrapper {
+        max-width: 600px;
+    }
+  }
+
+@media only screen and (min-width: 950px) {
+    .Wrapper {
+      grid-template-columns: 1fr;
+      max-width: 600px;
+      margin: 20px auto;
+      border-radius: 30px;
+    }
+  }
