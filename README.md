@@ -1,8 +1,12 @@
-# Static export example
+# weather-app-next
 
 This example show how to export to static HTML files your Next.js application fetching data from an API to generate a dynamic list of pages.
 
 When trying to run `npm start` it will build and export your pages into the `out` folder and serve them on `localhost:5000`.
+
+## Demo
+
+[weather-app-next.pages.dev](https://weather-app-next.pages.dev/)
 
 ## Preview
 
